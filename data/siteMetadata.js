@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: '老支书碎碎念',
+  title: '雄心勃勃 垃圾一坨',
   author: 'WoadZS',
   headerTitle: 'WoadZS',
-  description: '雄心勃勃 垃圾一坨',
+  description: '老支书碎碎念',
   language: 'en-us',
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteRepo: 'https://github.com/woadzs/tailwind-nextjs-starter-blog',
@@ -16,6 +16,7 @@ const siteMetadata = {
   // youtube: 'https://youtube.com',
   // linkedin: 'https://www.linkedin.com',
   telegram: 'https://t.me/woadzs',
+  rss: '/feed.xml',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
