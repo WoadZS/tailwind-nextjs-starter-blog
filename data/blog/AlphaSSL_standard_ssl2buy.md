@@ -1,6 +1,6 @@
 ---
 title: '更换 AlphaSSL 单域名证书加速国内 OCSP 认证遇到的坑'
-date: 2018-04-11 00:00:00
+date: '2018-04-11'
 tags: [主机壳, Netlify, SSL]
 draft: false
 summary: '最近决定更换一下我的博客大陆访问时候所用的 SSL 证书，于是到 [SSL2BUY](https://www.ssl2buy.com/) 上买了一个 AlphaSSL 的单域名证书，然而这才是坑的开始。因为按照最初的设置，这货弄出来只支持 WWW Domain, 显然这是不科学的。'
