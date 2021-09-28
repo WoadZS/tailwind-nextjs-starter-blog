@@ -4,7 +4,7 @@ import { PageSEO } from '@/components/SEO'
 import { telegram } from '@/data/siteMetadata'
 
 export default function AuthorLayout({ children, frontMatter }) {
-  const { name, avatar, occupation, company, email, twitter, linkedin, github } = frontMatter
+  const { name, avatar, occupation, company, email, twitter, linkedin, github, telegram } = frontMatter
 
   return (
     <>
