@@ -18,9 +18,10 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Inter", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", "Noto Sans CJK", ...defaultTheme.fontFamily.sans],
+        mono: ["Source Code Pro", Monaco, Menlo, Consolas, "Courier New", Courier, 'ui-monospace'],
       },
       colors: {
-        primary: colors.violet,
+        primary: colors.amber,
         gray: colors.blueGray,
       },
       typography: (theme) => ({
@@ -52,7 +53,7 @@ module.exports = {
               color: theme('colors.gray.900'),
             },
             code: {
-              color: theme('colors.pink.500'),
+              color: theme('colors.orange.600'),
               backgroundColor: theme('colors.gray.100'),
               paddingLeft: '4px',
               paddingRight: '4px',

@@ -1,9 +1,9 @@
 const siteMetadata = {
-  title: '雄心勃勃 垃圾一坨',
+  title: '咸鱼勇者',
   author: 'WoadZS',
   headerTitle: 'WoadZS',
-  description: '老支书碎碎念',
-  language: 'en-us',
+  description: '雄心勃勃 垃圾一坨',
+  language: 'zh-cn',
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteRepo: 'https://github.com/woadzs/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
