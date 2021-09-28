@@ -37,7 +37,7 @@ module.exports = {
         ],
       },
       colors: {
-        primary: colors.amber,
+        primary: colors.cyan,
         gray: colors.blueGray,
       },
       typography: (theme) => ({
@@ -134,6 +134,7 @@ module.exports = {
               color: theme('colors.gray.100'),
             },
             code: {
+              color: theme('colors.coolGray.100'),
               backgroundColor: theme('colors.gray.800'),
             },
             details: {
