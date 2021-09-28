@@ -27,7 +27,7 @@ module.exports = {
           ...defaultTheme.fontFamily.sans,
         ],
         mono: [
-          'Source Code Pro',
+          'JetBrains Mono',
           'Monaco',
           'Menlo',
           'Consolas',
