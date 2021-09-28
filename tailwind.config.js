@@ -17,8 +17,24 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ["Inter", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", "Noto Sans CJK", ...defaultTheme.fontFamily.sans],
-        mono: ["Source Code Pro", Monaco, Menlo, Consolas, "Courier New", Courier, 'ui-monospace'],
+        sans: [
+          'Inter',
+          'PingFang SC',
+          'Hiragino Sans GB',
+          'Microsoft YaHei',
+          'WenQuanYi Micro Hei',
+          'Noto Sans CJK',
+          ...defaultTheme.fontFamily.sans,
+        ],
+        mono: [
+          'Source Code Pro',
+          'Monaco',
+          'Menlo',
+          'Consolas',
+          'Courier New',
+          'Courier',
+          'ui-monospace',
+        ],
       },
       colors: {
         primary: colors.amber,
